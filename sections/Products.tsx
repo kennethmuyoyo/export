@@ -56,7 +56,7 @@ const Products: React.FC = () => {
     };
   
     return (
-      <div className="relative bg-green-500 text-white flex flex-wrap min-h-full items-center">
+      <div className="relative bg-green-500 text-white flex flex-wrap min-h-full items-center mb-5">
         <div className="text-left md:text-left md:w-2/3 px-4 md:px-20">
           <p className="mt-8 mx-4 text-white font-montserrat font-semibold sm:text-2xl text-xl">OUR TOP PRODUCTS</p>
   
@@ -78,7 +78,7 @@ const Products: React.FC = () => {
             <p className="mx-4 text-gray-100 font-poppins text-sm sm:text-base">{specialities[activeIndex].description}</p>
           </div>
   
-          <div className="mt-10">
+          <div className="mt-10 mb-6">
             <a href="#Contact" className="font-montserrat mx-4 mt-8 bg-gray-100 text-black px-6 py-2 rounded-lg mb-7">
               Contact Us
             </a>
@@ -86,11 +86,11 @@ const Products: React.FC = () => {
         </div>
   
         <div className="w-full md:w-1/3 p-8 flex pr-20">
-          <div className="rounded-full overflow-hidden">
+          <div className="rounded-md overflow-hidden">
             <Image
               src={specialities[activeIndex].imgUrl}
               alt={specialities[activeIndex].tags[0]}
-              width={300}
+              width={500}
               height={300}
               sizes="(max-width: 600px) 100vw, 50vw"
               loading="eager"

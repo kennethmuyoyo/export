@@ -27,7 +27,7 @@ const services = [
 
   export default function Services() {
     return (
-      <div className="bg-white relative flex flex-wrap min-h-full sm:mx-16 px-9 mx-1 mb-10 mt-6">
+      <div className="bg-white relative flex flex-wrap min-h-full sm:mx-16 px-9 mx-1 mb-10 mt-8">
         <div className="max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="items-center text-center justify-center font-montserrat sm:text-2xl text-xl font-semibold">
             OUR SERVICES
@@ -41,14 +41,14 @@ const services = [
                 key={services.id}
                 className="group relative shadow-md bg-gray-100 rounded-lg p-4 transform hover:scale-105 transition duration-300 ease-in-out"
               >
-                <div className="w-full overflow-hidden rounded-full bg-gray-100 lg:aspect-none group-hover:opacity-75 lg:h-56 flex justify-center items-center">
-                  <Image
-                    src={services.imageSrc}
-                    alt={services.imageAlt}
-                    className="object-cover object-center lg:h-56 lg:w-full"
-                    height={150}
-                    width={150}
-                  />
+                <div className="w-full overflow-hidden bg-gray-100 lg:aspect-none group-hover:opacity-75 lg:h-56 flex justify-center items-center">
+                <Image
+                  src={services.imageSrc}
+                  alt={services.imageAlt}
+                  className="object-cover object-center lg:h-56 lg:w-full w-full rounded-md"
+                  height={150}
+                  width={150}
+                />
                 </div>
                 <div className="mt-4">
                   <h3 className="font-montserrat font-semibold text-lg text-gray-900">{services.name}</h3>
