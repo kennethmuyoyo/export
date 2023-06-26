@@ -16,7 +16,13 @@ function CertificationsBanner() {
   };
 
   return (
-    <div>
+    <div className="mt-10">
+          <h2 className="items-center text-center justify-center font-montserrat sm:text-2xl text-xl font-semibold">
+            CERTIFICATIONS
+          </h2>
+          <div className="flex justify-center mb-8">
+            <Image src="/separator.png" alt="About us" height={200} width={200} />
+          </div>
         <div className="mt-14 mx-auto md:px-20 px-4 flex justify-cente items-centerr">
         <Slider {...settings} className="w-full md:px-20 px-5 items-center justify-center">
           <div>
