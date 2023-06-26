@@ -27,12 +27,12 @@ const services = [
 
   export default function Services() {
     return (
-      <div className="bg-white relative flex flex-wrap min-h-full sm:mx-16 px-9 mx-1 mb-10">
+      <div className="bg-white relative flex flex-wrap min-h-full sm:mx-16 px-9 mx-1 mb-10 mt-6">
         <div className="max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="items-center text-center justify-center font-montserrat sm:text-2xl text-xl font-semibold">
             OUR SERVICES
           </h2>
-          <div className="flex justify-center mb-8">
+          <div className="mt-6 flex justify-center mb-8">
             <Image src="/separator.png" alt="About us" height={200} width={200} />
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-2 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
