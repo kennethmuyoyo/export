@@ -32,7 +32,7 @@ const services = [
           <h2 className="items-center text-center justify-center font-montserrat sm:text-2xl text-xl font-semibold">
             OUR SERVICES
           </h2>
-          <div className="mt-6 flex justify-center mb-8">
+          <div className="flex justify-center mb-8">
             <Image src="/separator.png" alt="About us" height={200} width={200} />
           </div>
           <div className="mt-6 grid grid-cols-1 gap-x-2 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
