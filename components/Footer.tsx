@@ -19,16 +19,16 @@ function Footer() {
               <h2 className="mt-16 mb-6 text-sm font-semibold font-montserrat uppercase text-white">Quick Links</h2>
               <ul className="font-montserrat text-gray-400 font-medium">
                   <li>
-                      <a href="Products" className="hover:underline">Home</a>
+                      <a href="#Home" className="hover:underline">Home</a>
                   </li>
                   <li>
-                      <a href="Services" className="hover:underline">About Us</a>
+                      <a href="#About" className="hover:underline">About Us</a>
                   </li>
                   <li>
-                      <a href="Products" className="hover:underline">Services</a>
+                      <a href="#Services" className="hover:underline">Services</a>
                   </li>
                   <li>
-                      <a href="Products" className="hover:underline">Products</a>
+                      <a href="#Products" className="hover:underline">Products</a>
                   </li>
               </ul>
           </div>
