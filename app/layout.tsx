@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 
 export const metadata = {
   title: 'Exportiva',
-  description: 'Number 1 Exports Agency',
+  description: 'Number One Exports Agency',
 };
 
 interface RootLayoutProps {
